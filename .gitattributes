@@ -1,2 +1,24 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+"""Python Variable Defining and Printing"""
+
+# In Python, to define the variable you just need to give a value to it, for example:
+
+name = 'Sarbinaz' #(string)
+surname = "Ken'esbaeva" #(string) pay attention to the symbols "" and '
+age = 27 # integer
+float_number = -12.258 #float
+integer_number = 45 #integer / Pay attention to the syntax
+boolean_var = True # or False # boolean
+
+print(f"My name is {name}, my surname is {surname}")
+print(f"I am {age} years old")
+
+"""Important rules for defining the variables:"""
+# Must start with a letter or _
+# Can contain letters, numbers, and _
+# Case-sensitive (name ≠ Name, age ≠ aGe, float_number ≠ floatNumber etc. )
+# Cannot be any of the Python keywords like [for, in, class, if, print], etc.
+
+# That's all for now, see You in the next Repos)
